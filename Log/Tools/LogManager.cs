@@ -25,6 +25,7 @@ namespace Log.Tools
         {
             _path = path;
             _SetLogPath(logType, prefix, postfix);
+            // test
         }
 
         public LogManager()
