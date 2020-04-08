@@ -122,7 +122,7 @@ namespace Log.Tools
             {
                 using (StreamWriter sw = new StreamWriter(_path, true))
                 {
-                    sw.WriteLine(DateTime.Now.ToString("yyyyMMdd HH:mm:ss \t") + data);
+                    sw.WriteLine(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss \t") + data);
                 }
             }catch(Exception ex) { }
         }
